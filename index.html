@@ -1,8 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
-  <meta http-equiv="refresh" content="0; URL='https://drive.google.com/drive/folders/19IFFntO7Vfwkf6Z85OjBMcMmOrs2WM98?usp=drive_link'" />
+  <meta charset="UTF-8">
+  <title>ดาวน์โหลดภาพปก PNG</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f2f2f2;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      display: inline-block;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
+  <div class="card">
+    <h2>ภาพปก PNG สวยๆ</h2>
+    <img id="cover" src="https://cdn.pixabay.com/photo/2023/03/08/21/42/fantasy-7837075_1280.png" alt="ภาพปก PNG">
+    <br>
+    <a id="downloadLink" href="https://cdn.pixabay.com/photo/2023/03/08/21/42/fantasy-7837075_1280.png" download="ปก.png">
+      <button>📥 ดาวน์โหลดปก PNG</button>
+    </a>
+  </div>
 </body>
 </html>
